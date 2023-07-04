@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## To Start This App Required UserName And Password To Login 
+-UserName  : amir 
+-password : 123
+the you can see the dashboard of this app
+
 ## Available Scripts
 
 In the project directory, you can run:
