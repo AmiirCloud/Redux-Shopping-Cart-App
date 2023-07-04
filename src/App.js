@@ -7,7 +7,7 @@ import {Provider} from 'react-router-dom'
 
 
 function App() {
-  const
+  const a = 0;
   return (
     <div className="App">
       {/* <Auth /> */}
