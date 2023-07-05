@@ -2,16 +2,21 @@ import React from "react";
 import "./App.css";
 import Auth from "./components/Auth";
 import Layout from "./components/Layout";
-import store from "./store";
-import {Provider} from 'react-router-dom'
+
+
+import {useSelector} from 'react-redux'
 
 
 function App() {
-  const a = 0;
+  const isLoged  =  useSelector((state)=>{return state.Auth.isloged})
+
+
   return (
     <div className="App">
+      {!isLoged  && <Auth/> }
+      {isLoged  && <Layout/> }
       {/* <Auth /> */}
-      <Layout />
+      {/* <Layout /> */}
     </div>
   );
 }
