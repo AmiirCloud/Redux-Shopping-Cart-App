@@ -1,14 +1,18 @@
 .header-nav {
   position: sticky;
   box-shadow: 0px 10px 20px #ccc;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
 }
 .header-ul {
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: right;
 }
 .header-h2 {
   font-family: monospace;
-  font-size: 30px;
+  font-size: 20px;
 }
